@@ -1,0 +1,13 @@
+
+.container-fluid{
+    background-color:aquamarine
+}
+
+.mystyle{
+    /* text-align:center, */
+    text-align: center;
+    color:darkorange;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }

@@ -29,10 +29,11 @@ function App() {
   return (
    
     <div className="container">
-       <Signin/>
+       
       <BrowserRouter>
 
         <Routes>         
+        <Route exact path="/" element={<Signin />} />
           <Route exact path="/Signin" element={<Signin />} />
           <Route exact path="/Signup" element={<Signup />} />
           <Route exact path="/logout" element={<LogoutUser />} />
